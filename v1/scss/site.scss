@@ -18,32 +18,29 @@ img {vertical-align: middle;height: auto;max-width: 100%;}
 /* @import Typography.scss */
 @import "imports/typography.scss";
 
-/* @import Buttons.scss */
-@import "imports/buttons.scss";
-
-/* @import Tables.scss */
-@import "imports/tables.scss";
-
-/* @import Forms.scss */
-@import "imports/forms.scss";
-
-/* Custom styles
-========================================================================== */
+/* @import Grid.scss */
+@import "imports/grid.scss";
 
 body {
+	background: #f2f0e9;
+	color: #333;
 	font-family: open-sans, arial, verdana, sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
+	font-size: 15px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
 }
 
-/* Layout */
-#wrapper {
-    max-width: 944px;
-    margin: auto;
+/* Header
+========================================================================== */
+#header {
+	background: #fff;
+	height: 100px;
 }
-
-h1, h2, h3 {font-weight: normal;}
-
+.container-fluid {
+	margin: 0 auto;
+	max-width: 1000px;
+}
 
 
 
