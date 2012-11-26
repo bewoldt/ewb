@@ -200,15 +200,6 @@ blockquote:after {
   content: ""; }
 
 /* @import Grid.scss */
-/*
- * Bootstrap v2.1.1
- *
- * Copyright 2012 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
- */
 .row-fluid {
   width: 100%;
   *zoom: 1; }
@@ -594,9 +585,9 @@ body {
   background: #fff;
   height: 100px; }
 
-.container-fluid {
+.container {
   margin: 0 auto;
-  max-width: 1000px; }
+  max-width: 1100px; }
 
 /* Helper classes
 ========================================================================== */
