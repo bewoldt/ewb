@@ -3,12 +3,14 @@
 
 html,button,input,select,textarea {color: #222;}
 
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 ::-moz-selection {background: #b3d4fc;text-shadow: none;}
 ::selection { background: #b3d4fc;text-shadow: none;}
 
-img {vertical-align: middle;height: auto;max-width: 100%;}
+img, object, embed { max-width: 100%; height: auto; }
+object, embed { height: 100%; }
+img { -ms-interpolation-mode: bicubic; }
 
 .clearfix:before,
 .clearfix:after { content: " ";display: table;}
@@ -19,10 +21,22 @@ img {vertical-align: middle;height: auto;max-width: 100%;}
 @import "imports/typography.scss";
 
 /* @import Grid.scss */
-@import "imports/grid.scss";
+@import "imports/zurb_grid.scss";
+
+/* @import Nav-bar.scss */
+@import "imports/nav-bar.scss";
+
+/* @import buttons.scss */
+@import "imports/buttons.scss";
+
+/* @import Tables.scss */
+@import "imports/tables.scss";
+
+/* @import Forms.scss */
+@import "imports/forms.scss";
 
 body {
-	background: #f2f0e9;
+	background: #fff;
 	color: #333;
 	font-family: open-sans, arial, verdana, sans-serif;
 	font-size: 15px;
@@ -34,24 +48,21 @@ body {
 /* Header
 ========================================================================== */
 #header {
-	background: #fff;
-	height: 100px;
-}
-.container {
-	margin: 0 auto;
-	max-width: 1100px;
+	background: #eee;
 }
 
 
 
-
-
-
-
-
-
-/* Helper classes
+/* Misc classes
 ========================================================================== */
+.panel { background: #f2f2f2; border: solid 1px #e6e6e6; margin: 0 0 22px 0; padding: 20px; }
+.panel > :first-child { margin-top: 0; }
+.panel > :last-child { margin-bottom: 0; }
+
+/* Inline Link List */
+ul.inline-list, ul.link-list { margin: 0 0 17px -22px; padding: 0; list-style: none; overflow: hidden; }
+ul.inline-list > li, ul.link-list > li { list-style: none; float: left; margin-left: 22px; display: block; }
+ul.inline-list > li > *, ul.link-list > li > * { display: block; }
 
 .ir { background-color: transparent; border: 0; overflow: hidden; /* IE 6/7 fallback */ *text-indent: -9999px;}
 .ir:before { content: "";display: block;width: 0;height: 100%;}
@@ -62,14 +73,12 @@ body {
 
 /* Media Queries
 ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (min-resolution: 144dpi) {
-    /* Style adjustments for high resolution devices */
+@media only screen and (max-width: 767px) {
+	.left, .right {
+		float: none;
+	}
+	body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; width: 100%; min-width: 0; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0;
+	}
 }
 
 /* Print Import

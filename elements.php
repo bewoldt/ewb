@@ -1,106 +1,96 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Elements</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+<?php $title="Elements" ?>
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<!-- Document Head -->
+<?php include 'includes/_doc_head.php'; ?>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/site.css">
-        
-        <script src="http://use.edgefonts.net/open-sans.js"></script>
-        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
-    </head>
-    <body>
+<body>
+    <!-- Header -->
+    <?php include 'includes/_header.php'; ?>
+
+    <!-- Nav -->
+    <?php include 'includes/_nav.php'; ?>
+
+    <div class="row">
+        <div class="twelve columns">
+            <h1>General Typography</h1>
+            <p>These are the basic elements of typography.</p>
+
+            <h1>h1. This is a very large header.</h1>
+            <h2>h2. This is a large header.</h2>
+            <h3>h3. This is a medium header.</h3>
+            <h4>h4. This is a moderate header.</h4>
+            <h5>h5. This is small header.</h5>
+            <h6>h6. This is very small header.</h6>
+
+            <p>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content so, let's see&#8230; did you know that there are storms occurring on Jupiter that are larger than the Earth? That's pretty cool.</p>
+            <p>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content so, let's see&#8230; did you know that there are storms occurring on Jupiter that are larger than the Earth? That's pretty cool.</p>
+
+			<hr />
+
+			<h1>Links</h1>
+			<p>Where would we be without links? Not in hypertext, that's for sure! Ah, nerd humor. Anyways. Links are very standard, and the color is preset or controlled via the _settings.scss file as the main color.</p>
+
+			<h2><a href="#">This is a header link.</a></h2>
+			<h3><a href="#">This is a header link.</a></h3>
+			<h4><a href="#">This is a header link.</a></h4>
+			<h5><a href="#">This is a header link.</a></h5>
+			<p><a href="#">This is a standard inline paragraph link.</a></p>
+
+			<hr />
+			<h1>Lists</h1>
+			
+			<h3>Unordered List</h3>
+			<p>A list of items in which the order does not explicitly matter.</p>
+	    <ul>
+	      <li>List item with a much longer description or more content.</li>
+	      <li>List item</li>
+	      <li>List item
+              <ul>
+                <li>Nested List Item</li>
+                <li>Nested List Item</li>
+                <li>Nested List Item</li>
+              </ul>
+          </li>
+	      <li>List item</li>
+	      <li>List item</li>
+	      <li>List item</li>
+	    </ul>
 	    
-	    <div id="wrapper" style="width: 80%;margin: 0 auto;">
-	      <section>
-	        <h1>General Typography</h1>
-  				<p>These are the basic elements of typography.</p>
+	    <h3>Ordered List</h3>
+	    <p>A list of items in which the order does explicitly matter.</p>
+	    <ol>
+	      <li>List item with a much longer description or more content.</li>
+	      <li>List item</li>
+	      <li>List item
+              <ol>
+                <li>Nested List Item</li>
+                <li>Nested List Item</li>
+                <li>Nested List Item</li>
+              </ol>
+          </li>
+	      <li>List item</li>
+	      <li>List item</li>
+	      <li>List item</li>
+	    </ol>
+	    
+	    <h3>Unstyled List</h3>
+	    <p>A list of items with a class <code>.unstyled</code>.</p>
+	    <ul class="unstyled">
+	      <li>List item with a much longer description or more content.</li>
+	      <li>List item</li>
+	      <li>List item
+              <ul>
+                <li>Nested List Item</li>
+                <li>Nested List Item</li>
+                <li>Nested List Item</li>
+              </ul>
+          </li>
+	      <li>List item</li>
+	      <li>List item</li>
+	      <li>List item</li>
+	    </ul>
 
-					<h1>h1. This is a very large header.</h1>
-					<h2>h2. This is a large header.</h2>
-					<h3>h3. This is a medium header.</h3>
-					<h4>h4. This is a moderate header.</h4>
-					<h5>h5. This is small header.</h5>
-					<h6>h6. This is very small header.</h6>
-
-  				<p>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content so, let's see&#8230; did you know that there are storms occurring on Jupiter that are larger than the Earth? That's pretty cool.</p>
-          <p>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content so, let's see&#8230; did you know that there are storms occurring on Jupiter that are larger than the Earth? That's pretty cool.</p>
-
-  				<hr />
-
-  				<h1>Links</h1>
-  				<p>Where would we be without links? Not in hypertext, that's for sure! Ah, nerd humor. Anyways. Links are very standard, and the color is preset or controlled via the _settings.scss file as the main color.</p>
-
-  				<h2><a href="#">This is a header link.</a></h2>
-  				<h3><a href="#">This is a header link.</a></h3>
-  				<h4><a href="#">This is a header link.</a></h4>
-  				<h5><a href="#">This is a header link.</a></h5>
-  				<p><a href="#">This is a standard inline paragraph link.</a></p>
-
-  				<hr />
-  				<h1>Lists</h1>
-  				
-  				<h3>Unordered List</h3>
-  				<p>A list of items in which the order does not explicitly matter.</p>
-			    <ul>
-			      <li>List item with a much longer description or more content.</li>
-			      <li>List item</li>
-			      <li>List item
-	                  <ul>
-	                    <li>Nested List Item</li>
-	                    <li>Nested List Item</li>
-	                    <li>Nested List Item</li>
-	                  </ul>
-	              </li>
-			      <li>List item</li>
-			      <li>List item</li>
-			      <li>List item</li>
-			    </ul>
-			    
-			    <h3>Ordered List</h3>
-			    <p>A list of items in which the order does explicitly matter.</p>
-			    <ol>
-			      <li>List item with a much longer description or more content.</li>
-			      <li>List item</li>
-			      <li>List item
-	                  <ol>
-	                    <li>Nested List Item</li>
-	                    <li>Nested List Item</li>
-	                    <li>Nested List Item</li>
-	                  </ol>
-	              </li>
-			      <li>List item</li>
-			      <li>List item</li>
-			      <li>List item</li>
-			    </ol>
-			    
-			    <h3>Unstyled List</h3>
-			    <p>A list of items with a class <code>.unstyled</code>.</p>
-			    <ul class="unstyled">
-			      <li>List item with a much longer description or more content.</li>
-			      <li>List item</li>
-			      <li>List item
-	                  <ul>
-	                    <li>Nested List Item</li>
-	                    <li>Nested List Item</li>
-	                    <li>Nested List Item</li>
-	                  </ul>
-	              </li>
-			      <li>List item</li>
-			      <li>List item</li>
-			      <li>List item</li>
-			    </ul>
-
-  				<hr />
+			<hr />
 
   				<h1>Blockquotes</h1>
   				<p>Sometimes other people say smart things, and you may want to mention that through a blockquote callout. We've got you covered.</p>
@@ -471,12 +461,11 @@
             <button type="button" class="btn btn-mini btn-primary">Mini button</button>
             <button type="button" class="btn btn-mini">Mini button</button>
           </p>
-          
-	        </section>
-	    </div><!-- end #wrapper -->
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <?php include 'includes/_footer.php'; ?>
 
-      <!-- Scripts -->
-      <script src="js/plugins-ck.js"></script>
-      <script src="js/main-ck.js"></script>
-    </body>
-</html>
+    <!-- Document End -->
+    <?php include 'includes/_doc_end.php'; ?>
