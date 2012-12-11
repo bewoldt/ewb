@@ -164,6 +164,9 @@ hr {
 .text-center {
   text-align: center; }
 
+.uppercase {
+  text-transform: uppercase; }
+
 /* Quotes
   ----------------------------------------------------*/
 blockquote {
@@ -1960,9 +1963,6 @@ body {
 
 /* Header
 ========================================================================== */
-#header {
-  background: #eee; }
-
 /* Misc classes
 ========================================================================== */
 .panel {
