@@ -19,7 +19,7 @@
     <div class="row">
         <div class="twelve columns text-center">
             <h1 class="uppercase">Ghana</h1>
-            <h5>Fusce dapibus tellus ac cursus commodo tortor mauris condimentum nibh ut fermentum massa justo sit amet.</h5>
+            <p>The mission of this program is to partner with villages in the Ejura Sekyedumase District in Ghana, West Africa, on global health projects focused mainly on community drinking water and sanitation</p>
             <br>
             <hr>
         </div>

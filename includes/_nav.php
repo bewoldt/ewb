@@ -7,7 +7,7 @@
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="committees.php">Committees</a></li>
                 <li><a href="news.php">News/Updates</a></li>
-                <li><a href="#">How To Join</a></li>
+                <li><a href="how-to-join.php">How To Join</a></li>
             </ul>
         </div>
     </div>

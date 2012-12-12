@@ -3,8 +3,8 @@
 	        <div class="four columns">
 	            <img src="http://placehold.it/303x70&amp;text=[logo]">
 	        </div>
-	        <div class="eight columns">
-
+	        <div class="eight columns text-right">
+	        	<p>Tagline Goes Here</p>
 	        </div>
 	    </div>
     </header>

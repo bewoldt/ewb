@@ -18,7 +18,7 @@
   
     <div class="row">
         <div class="twelve columns">
-            <h2>About Us</h2>
+            <h2 class="text-center">About Us</h2>
             <div class="row">
                 <div class="four columns">
                     <h4>Mission</h4>

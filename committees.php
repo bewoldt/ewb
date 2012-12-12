@@ -28,7 +28,7 @@
 
     <div class="row">
         <div class="twelve columns">
-            <h2 class="text-center">Sanitation</h2>
+            <h2 class="text-center">Water</h2>
             <img src="http://placehold.it/970x300&amp;text=[img]" />
             <br><br>
         </div>

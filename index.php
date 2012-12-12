@@ -22,10 +22,10 @@
             <h4>This is a content section.</h4>
             <div class="row">
                 <div class="six columns">
-                  <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                    <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                 </div>
                 <div class="six columns">
-                    <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+                    <p>Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
                 </div>
             </div>
         </div>
@@ -33,17 +33,42 @@
             <img src="http://placehold.it/400x300&amp;text=[img]" />
         </div>
     </div>
-  
+    <br>
     <div class="row">
-        <div class="eight columns">
-            <div class="panel">
+        <div class="twelve columns">
+            <div class="panel clearfix">
+                <img src="http://placehold.it/300x200&amp;text=[img]" class="right" />
                 <h4>This is a content section.</h4>
-                <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-                <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow.</p>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.</p>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero a pharetra.</p>
             </div>
         </div>
-        <div class="four columns">
-            <img src="http://placehold.it/400x300&amp;text=[img]" />
+    </div>
+
+    <div class="row">
+        <div class="three columns">
+            <div class="panel">
+                <h4>Water</h4>
+                <p>Cras justo odio, dapibus ac facilisis in egestas eget.</p>
+            </div>
+        </div>
+        <div class="three columns">
+            <div class="panel">
+                <h4>Sanitation</h4>
+                <p>Cras justo odio, dapibus ac facilisis in egestas eget.</p>
+            </div>
+        </div>
+        <div class="three columns">
+            <div class="panel">
+                <h4>Health</h4>
+                <p>Cras justo odio, dapibus ac facilisis in egestas eget.</p>
+            </div>
+        </div>
+        <div class="three columns">
+            <div class="panel">
+                <h4>Energy</h4>
+                <p>Cras justo odio, dapibus ac facilisis in egestas eget.</p>
+            </div>
         </div>
     </div>
   
