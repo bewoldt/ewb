@@ -13,5 +13,5 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/site.css">
 
-        <script src="http://use.edgefonts.net/open-sans.js"></script>
+        <script src="http://use.edgefonts.net/pt-sans-narrow;pt-serif.js"></script>
     </head>

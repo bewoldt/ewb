@@ -1945,14 +1945,119 @@ legend + .control-group {
 .form-horizontal .form-actions {
   padding-left: 180px; }
 
+/* @import Tabs.scss */
+.nav-tabs {
+  *zoom: 1;
+  border-bottom: 1px solid #ddd;
+  margin-left: 0;
+  margin-bottom: 20px;
+  list-style: none; }
+
+.nav-tabs > li > a > img {
+  max-width: none; }
+
+.nav-tabs:before,
+.nav-tabs:after {
+  display: table;
+  content: "";
+  line-height: 0; }
+
+.nav-tabs:after {
+  clear: both; }
+
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px; }
+
+.nav-tabs > li > a {
+  border: 1px solid transparent;
+  display: block;
+  padding: 10px 12px;
+  margin-right: 2px; }
+
+.nav-tabs > li > a:hover {
+  text-decoration: none;
+  background-color: #eeeeee; }
+
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover {
+  color: #555555;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-top: 3px solid #2ba6cb;
+  border-bottom-color: transparent;
+  cursor: default; }
+
+.tab-content > .tab-pane {
+  display: none; }
+
+.tab-content > .active {
+  display: block; }
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  -moz-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear; }
+
+.fade.in {
+  opacity: 1; }
+
+/* ===== */
+.nav-tabs.two-up li a, .nav-tabs.three-up li a, .nav-tabs.four-up li a, .nav-tabs.five-up li a {
+  text-align: center;
+  overflow: hidden; }
+
+.nav-tabs.two-up li {
+  width: 50%; }
+
+.nav-tabs.three-up li {
+  width: 33.33%; }
+
+.nav-tabs.four-up li {
+  width: 25%; }
+
+.nav-tabs.five-up li {
+  width: 20%; }
+
+/* 
+========================================================================== */
 body {
   background: #fff;
-  color: #333;
-  font-family: open-sans, arial, verdana, sans-serif;
-  font-size: 15px;
+  color: #3a3a3a;
+  font-family: pt-serif, georgia, serif;
+  font-size: 17px;
   line-height: 1.5;
   margin: 0;
   padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: pt-sans-narrow, arial, verdana, sans-serif; }
+
+h1, h2, h3 {
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 50px; }
+
+h2 {
+  font-size: 42px; }
+
+h3 {
+  font-size: 32px; }
+
+h4 {
+  font-size: 23px; }
+
+h5 {
+  font-size: 17px; }
+
+h6 {
+  font-size: 14px; }
+
+table {
+  font-family: arial, verdana, sans-serif; }
 
 /* 
 ========================================================================== */
@@ -1983,7 +2088,11 @@ body {
 /* FOOTER
 ========================================================================== */
 footer {
-  background: #eee; }
+  background: #eee;
+  font-size: 15px; }
+
+.copy, .copy a {
+  color: #eee; }
 
 /* Misc classes
 ========================================================================== */

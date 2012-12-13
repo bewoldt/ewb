@@ -37,7 +37,7 @@
                 <p><a href="#">Link to foundation site</a></p>
             </div>
         </div>
-        <div style="background: #ddd;">
+        <div style="background: url(images/blue_texture.png);" class="copy">
             <hr>
             <div class="row">
                 <div class="six columns">

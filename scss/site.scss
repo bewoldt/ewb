@@ -35,15 +35,30 @@ img { -ms-interpolation-mode: bicubic; }
 /* @import Forms.scss */
 @import "imports/forms.scss";
 
+
+/* @import Tabs.scss */
+@import "imports/bootstrap_tabs.scss";
+
+/* 
+========================================================================== */
 body {
 	background: #fff;
-	color: #333;
-	font-family: open-sans, arial, verdana, sans-serif;
-	font-size: 15px;
+	color: #3a3a3a;
+	font-family: pt-serif, georgia, serif;
+	font-size: 17px;
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
 }
+h1,h2,h3,h4,h5,h6 {font-family: pt-sans-narrow, arial, verdana, sans-serif;}
+h1,h2,h3 {text-transform: uppercase;}
+h1 { font-size: 50px; }
+h2 { font-size: 42px; }
+h3 { font-size: 32px; }
+h4 { font-size: 23px; }
+h5 { font-size: 17px; }
+h6 { font-size: 14px; }
+table {font-family: arial, verdana, sans-serif;}
 
 /* 
 ========================================================================== */
@@ -59,7 +74,9 @@ body {
 ========================================================================== */
 footer {
 	background: #eee;
+	font-size: 15px;
 }
+.copy, .copy a {color: #eee;}
 
 
 /* Misc classes
