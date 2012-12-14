@@ -98,8 +98,10 @@
                     <div class="row">
                         <div class="eleven centered columns">
                             <br>
+                            <img src="http://placehold.it/175x175&amp;text=[image]" class="left">
                             <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <h4>Team Members</h4>
+                            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Aenean eu leo quam.</p>
+                            <h4 style="clear:both;">Team Members</h4>
                             <ul class="unstyled row">
                                 <li class="two mobile-two columns">
                                     <img src="http://placehold.it/100x100&amp;text=[image]">
