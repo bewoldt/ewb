@@ -10,15 +10,16 @@
     <!-- Nav -->
     <?php include 'includes/_nav.php'; ?>
     
-    <div style="background: #eee;height: 400px;">
+    <div style="background: url(images/landscape.jpg) no-repeat center bottom;padding-bottom: 360px;">
+        <div class="row">
+            <div class="twelve columns text-center">
+                <h1 class="uppercase">Ghana</h1>
+                <p style="font-size:26px;color: #777;">The mission of this program is to partner with villages in the Ejura Sekyedumase District in Ghana, West Africa, on global health projects focused mainly on community drinking water and sanitation</p>
+            </div>
+        </div>
     </div>
-
     <div class="row">
         <div class="twelve columns text-center">
-            <h1 class="uppercase">Ghana</h1>
-            <p style="font-size:26px;">The mission of this program is to partner with villages in the Ejura Sekyedumase District in Ghana, West Africa, on global health projects focused mainly on community drinking water and sanitation</p>
-            <br>
-            <hr>
             <h2>Overview</h2>
         </div>
     </div>
@@ -28,7 +29,7 @@
             <p>Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod.</p>
             <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
 
-            <h3>Goals</h3>
+            <h4>Goals</h4>
             <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
         </div>
         <div class="three columns">
@@ -82,7 +83,8 @@
             <h2 class="text-center">Community Info</h2>
             <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.</p>
             <p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-
+            <br>
+            <img src="http://placehold.it/800x500&amp;text=[video]" style="display:block;margin: 0 auto;">
             <br>
             <h2 class="text-center">Committees</h2>
             <br>
@@ -95,108 +97,105 @@
 
             <div class="tab-content">
                 <div class="tab-pane active fade in" id="home">
-                    <div class="row">
-                        <div class="eleven centered columns">
-                            <br>
-                            <img src="http://placehold.it/175x175&amp;text=[image]" class="left">
-                            <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Aenean eu leo quam.</p>
-                            <h4 style="clear:both;">Team Members</h4>
-                            <ul class="unstyled row">
-                                <li class="two mobile-two columns">
-                                    <img src="http://placehold.it/100x100&amp;text=[image]">
-                                    <p>Name Goes Here</p>
-                                </li>
-                                <li class="two mobile-two columns">
-                                    <img src="http://placehold.it/100x100&amp;text=[image]">
-                                    <p>Name Goes Here</p>
-                                </li>
-                                <li class="two mobile-two columns">
-                                    <img src="http://placehold.it/100x100&amp;text=[image]">
-                                    <p>Name Goes Here</p>
-                                </li>
-                                <li class="two mobile-two columns end">
-                                    <img src="http://placehold.it/100x100&amp;text=[image]">
-                                    <p>Name Goes Here</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    <br>
+                    <br>
+                    <img src="http://placehold.it/253x265&amp;text=[image]" class="left">
+                    <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Aenean eu leo quam.</p>
+                    <br>
+                    <h4 style="clear:both;">Team Members</h4>
+                    <ul class="unstyled row">
+                        <li class="two mobile-two columns">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                        <li class="two mobile-two columns">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                        <li class="two mobile-two columns">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                        <li class="two mobile-two columns end">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                    </ul>
                 </div>
                 <div class="tab-pane fade" id="profile">
-                    <div class="row">
-                        <div class="eleven centered columns">
-                            <br>
-                            <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <h4>Team Members</h4>
-                            <ul class="unstyled row">
-                                <li class="two mobile-two columns">
-                                    <img src="http://placehold.it/100x100&amp;text=[image]">
-                                    <p>Name Goes Here</p>
-                                </li>
-                                <li class="two mobile-two columns">
-                                    <img src="http://placehold.it/100x100&amp;text=[image]">
-                                    <p>Name Goes Here</p>
-                                </li>
-                                <li class="two mobile-two columns end">
-                                    <img src="http://placehold.it/100x100&amp;text=[image]">
-                                    <p>Name Goes Here</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    <br>
+                    <img src="http://placehold.it/253x265&amp;text=[image]" class="left">
+                    <p>Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <p>Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum.</p>
+                    <br>
+                    <h4 style="clear:both;">Team Members</h4>
+                    <ul class="unstyled row">
+                        <li class="two mobile-two columns">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                        <li class="two mobile-two columns">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                        <li class="two mobile-two columns end">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                    </ul>
                 </div>
                 <div class="tab-pane fade" id="messages">
-                    <div class="row">
-                        <div class="eleven centered columns">
-                            <br>
-                            <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <h4>Team Members</h4>
-                            <ul class="unstyled row">
-                                <li class="two mobile-two columns">
-                                    <img src="http://placehold.it/100x100&amp;text=[image]">
-                                    <p>Name Goes Here</p>
-                                </li>
-                                <li class="two mobile-two columns">
-                                    <img src="http://placehold.it/100x100&amp;text=[image]">
-                                    <p>Name Goes Here</p>
-                                </li>
-                                <li class="two mobile-two columns">
-                                    <img src="http://placehold.it/100x100&amp;text=[image]">
-                                    <p>Name Goes Here</p>
-                                </li>
-                                <li class="two mobile-two columns end">
-                                    <img src="http://placehold.it/100x100&amp;text=[image]">
-                                    <p>Name Goes Here</p>
-                                </li>
-                                <li class="two mobile-two columns end">
-                                    <img src="http://placehold.it/100x100&amp;text=[image]">
-                                    <p>Name Goes Here</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    <br>
+                    <img src="http://placehold.it/253x265&amp;text=[image]" class="left">
+                    <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Aenean eu leo quam.</p>
+                    <br>
+                    <h4 style="clear:both;">Team Members</h4>
+                    <ul class="unstyled row">
+                        <li class="two mobile-two columns">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                        <li class="two mobile-two columns">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                        <li class="two mobile-two columns">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                        <li class="two mobile-two columns">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                        <li class="two mobile-two columns end">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                    </ul>
                 </div>
                 <div class="tab-pane fade" id="settings">
-                    <div class="eleven centered columns">
-                        <br>
-                        <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                        <h4>Team Members</h4>
-                        <ul class="unstyled row">
-                            <li class="two mobile-two columns">
-                                <img src="http://placehold.it/100x100&amp;text=[image]">
-                                <p>Name Goes Here</p>
-                            </li>
-                            <li class="two mobile-two columns">
-                                <img src="http://placehold.it/100x100&amp;text=[image]">
-                                <p>Name Goes Here</p>
-                            </li>
-                            <li class="two mobile-two columns end">
-                                <img src="http://placehold.it/100x100&amp;text=[image]">
-                                <p>Name Goes Here</p>
-                            </li>
-                        </ul>
-                    </div>
+                    <br>
+                    <img src="http://placehold.it/253x265&amp;text=[image]" class="left">
+                    <p>Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <p>Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum.</p>
+                    <br>
+                    <h4 style="clear:both;">Team Members</h4>
+                    <ul class="unstyled row">
+                        <li class="two mobile-two columns">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                        <li class="two mobile-two columns">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                        <li class="two mobile-two columns end">
+                            <img src="http://placehold.it/100x100&amp;text=[image]">
+                            <p>Name Goes Here</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <br>

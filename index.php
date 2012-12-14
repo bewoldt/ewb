@@ -47,28 +47,16 @@
 
     <div class="row">
         <div class="three columns">
-            <div class="panel">
-                <h4>Water</h4>
-                <p>Cras justo odio, dapibus ac facilisis in egestas eget.</p>
-            </div>
+            <img src="http://placehold.it/220x160&amp;text=Water" />
         </div>
         <div class="three columns">
-            <div class="panel">
-                <h4>Sanitation</h4>
-                <p>Cras justo odio, dapibus ac facilisis in egestas eget.</p>
-            </div>
+            <img src="http://placehold.it/220x160&amp;text=Sanitation" />
         </div>
         <div class="three columns">
-            <div class="panel">
-                <h4>Health</h4>
-                <p>Cras justo odio, dapibus ac facilisis in egestas eget.</p>
-            </div>
+            <img src="http://placehold.it/220x160&amp;text=Health" />
         </div>
         <div class="three columns">
-            <div class="panel">
-                <h4>Energy</h4>
-                <p>Cras justo odio, dapibus ac facilisis in egestas eget.</p>
-            </div>
+            <img src="http://placehold.it/220x160&amp;text=Energy" />
         </div>
     </div>
   
