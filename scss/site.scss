@@ -1,3 +1,6 @@
+/* @import Normalize  */
+@import "normalize.scss";
+
 /* Base styles
 ========================================================================== */
 
@@ -17,26 +20,26 @@ img { -ms-interpolation-mode: bicubic; }
 .clearfix:after { clear: both;}
 .clearfix { *zoom: 1;}
 
-/* @import Typography.scss */
+/* @import Typography */
 @import "imports/typography.scss";
 
-/* @import Grid.scss */
+/* @import Grid */
 @import "imports/zurb_grid.scss";
 
-/* @import Nav-bar.scss */
+/* @import Nav-bar */
 @import "imports/nav-bar.scss";
 
-/* @import buttons.scss */
+/* @import buttons */
 @import "imports/buttons.scss";
 
-/* @import Tables.scss */
+/* @import Tables */
 @import "imports/tables.scss";
 
-/* @import Forms.scss */
+/* @import Forms */
 @import "imports/forms.scss";
 
 
-/* @import Tabs.scss */
+/* @import Tabs */
 @import "imports/bootstrap_tabs.scss";
 
 /* 
