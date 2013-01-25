@@ -1,14 +1,14 @@
 <?php $title="Committees" ?>
 
 <!-- Document Head -->
-<?php include 'includes/_doc_head.php'; ?>
+<?php include 'includes/doc_head.php'; ?>
 
 <body>
     <!-- Header -->
-    <?php include 'includes/_header.php'; ?>
+    <?php include 'includes/header.php'; ?>
 
     <!-- Nav -->
-    <?php include 'includes/_nav.php'; ?>
+    <?php include 'includes/nav.php'; ?>
 
     <div class="row">
         <div class="twelve columns">
@@ -32,7 +32,7 @@
     </div><!-- end .row -->
 
     <!-- Footer -->
-    <?php include 'includes/_footer.php'; ?>
+    <?php include 'includes/footer.php'; ?>
     
     <!-- Document End -->
-    <?php include 'includes/_doc_end.php'; ?>
+    <?php include 'includes/doc_end.php'; ?>
