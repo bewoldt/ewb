@@ -3,15 +3,16 @@
 <!-- Document Head -->
 <?php include 'includes/doc_head.php'; ?>
 
-<body>
+<body class="home">
     <!-- Header -->
     <?php include 'includes/header.php'; ?>
-
-    <!-- Nav -->
-    <?php include 'includes/nav.php'; ?>
-    <div class="container">
-        <img src="http://placehold.it/1000x400&amp;text=[img]" />
-        <hr />
+    <div class="banner-container">
+        <div class="banner banner-home">
+            <span></span>
+        </div>
+    </div>
+    
+    <div class="container main-content">
         <div class="row-fluid">
             <div class="span8">
                 <h4>This is a content section.</h4>

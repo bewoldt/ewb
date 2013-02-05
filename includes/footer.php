@@ -31,24 +31,8 @@
                 <p><a href="#">Link to foundation site</a></p>
             </div>
         </div>
+        <div class="row-fluid">
+            <p>&copy; Copyright 2012 The University of Iowa. All Rights Reserved.</p>
+         </div><!-- end .row -->
     </div><!-- end .container -->
-    <div style="background: url(images/blue_texture.png);" class="copy">
-        <div class="container">
-            <div class="row-fluid">
-                <div class="span6">
-                    <p>&copy; Copyright 2012 The University of Iowa. All Rights Reserved.</p>
-                </div>
-                <div class="span6 text-right">
-                    <ul class="link-list right">
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                    </ul>
-                </div>
-            </div><!-- end .row -->
-        </div>
-    </div>
 </footer>

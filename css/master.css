@@ -191,7 +191,7 @@ figure {
  * Define consistent border, margin, and padding.
  */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -413,8 +413,8 @@ hr {
   clear: both;
   margin: 20px 0;
   border: 0;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #fff; }
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid white; }
 
 .left {
   float: left; }
@@ -439,7 +439,7 @@ hr {
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 20px;
-  border-left: 5px solid #eee; }
+  border-left: 5px solid #eeeeee; }
 
 blockquote p {
   margin-bottom: 0;
@@ -457,7 +457,7 @@ blockquote.pull-right {
   float: right;
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eee;
+  border-right: 5px solid #eeeeee;
   border-left: 0; }
 
 blockquote.pull-right p,
@@ -929,7 +929,7 @@ blockquote:after {
   padding-right: 55px; }
 
 .nav-bar > li.has-flyout.is-touch > a.flyout-toggle {
-  border-left: 1px dashed #666; }
+  border-left: 1px dashed #666666; }
 
 .nav-bar > li > a:first-child {
   position: relative;
@@ -1043,7 +1043,7 @@ blockquote:after {
   transition: background-position 0.1s linear; }
 
 .btn:focus {
-  outline: thin dotted #333;
+  outline: thin dotted #333333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
@@ -1177,7 +1177,7 @@ input[type="button"].btn-block {
   background-image: linear-gradient(to bottom, #444444, #222222);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);
-  border-color: #222222 #222222 #000000;
+  border-color: #222222 #222222 black;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #222222;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
@@ -1440,10 +1440,10 @@ input[type="color"],
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border linear .2s, box-shadow linear .2s;
-  -moz-transition: border linear .2s, box-shadow linear .2s;
-  -o-transition: border linear .2s, box-shadow linear .2s;
-  transition: border linear .2s, box-shadow linear .2s; }
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s; }
 
 textarea:focus,
 input[type="text"]:focus,
@@ -1509,7 +1509,7 @@ select:focus,
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: thin dotted #333;
+  outline: thin dotted #333333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
@@ -1870,9 +1870,9 @@ select:focus:required:invalid:focus {
   font-weight: normal;
   line-height: 20px;
   text-align: center;
-  text-shadow: 0 1px 0 #ffffff;
+  text-shadow: 0 1px 0 white;
   background-color: #eeeeee;
-  border: 1px solid #ccc; }
+  border: 1px solid #cccccc; }
 
 .input-append .add-on,
 .input-prepend .add-on,
@@ -2083,7 +2083,7 @@ legend + .control-group {
 
 .nav-tabs {
   *zoom: 1;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dddddd;
   margin-left: 0;
   margin-bottom: 20px;
   list-style: none; }
@@ -2118,7 +2118,7 @@ legend + .control-group {
 .nav-tabs > .active > a:hover {
   color: #555555;
   background-color: #ffffff;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   border-top: 3px solid #2ba6cb;
   border-bottom-color: transparent;
   cursor: default; }
@@ -2209,7 +2209,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: pt-sans-narrow, arial, verdana, sans-serif; }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   text-transform: uppercase; }
 
 h1 {
@@ -2222,7 +2222,7 @@ h3 {
   font-size: 32px; }
 
 h4 {
-  font-size: 23px; }
+  font-size: 24px; }
 
 h5 {
   font-size: 17px; }
@@ -2237,7 +2237,96 @@ table {
 ========================================================================== */
 .container {
   margin: 0 auto;
-  max-width: 960px; }
+  max-width: 960px;
+  position: relative; }
+
+/* HEADER
+========================================================================== */
+.header {
+  background: #05286c url(../images/header_bg.jpg) no-repeat center bottom;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.35);
+  position: relative;
+  z-index: 100; }
+
+.top-nav {
+  background: rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14); }
+
+.top-nav ul {
+  float: right;
+  list-style: none;
+  margin: 0; }
+
+.top-nav li {
+  float: left;
+  margin-left: 1.5em; }
+  .top-nav li a {
+    color: #fff;
+    display: block;
+    font-family: arial;
+    font-size: 12px;
+    padding: 7px 5px; }
+
+.logo {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+
+.logo img {
+  display: block; }
+
+.logo span {
+  background: url(../images/logo_btm.png) no-repeat left bottom;
+  position: absolute;
+  left: 14px;
+  bottom: -15px;
+  width: 86px;
+  height: 15px; }
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin: 0; }
+
+.main-nav li {
+  float: left;
+  margin-left: 1em;
+  margin-top: 40px; }
+  .main-nav li a {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    padding: 10px 5px; }
+
+/* CONTENT
+========================================================================== */
+.banner-wrapper {
+  position: relative; }
+
+.banner {
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 500px;
+  width: 100%; }
+
+.banner-home {
+  background-image: url(../images/banner_home.jpg); }
+
+.banner span {
+  background: url(../images/dots.png);
+  position: absolute;
+  height: 100%;
+  width: 100%; }
+
+.main-content {
+  background: #fff;
+  margin-top: 200px;
+  padding: 20px; }
 
 /* Side Nav ---------------------- */
 .side-nav {
@@ -2266,11 +2355,12 @@ table {
 /* FOOTER
 ========================================================================== */
 footer {
-  background: #eee;
+  background: #05286c url(../images/header_bg.jpg) no-repeat center top;
+  color: #fff;
   font-size: 15px; }
 
 .copy, .copy a {
-  color: #eee; }
+  xcolor: #eee; }
 
 /* Misc classes
 ========================================================================== */
@@ -2351,9 +2441,6 @@ ul.inline-list > li > *, ul.link-list > li > * {
 /* Media Queries
 ========================================================================== */
 @media only screen and (max-width: 767px) {
-  .left, .right {
-    float: none; }
-
   body {
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
@@ -2396,7 +2483,7 @@ ul.inline-list > li > *, ul.link-list > li > * {
     content: ""; }
 
   pre, blockquote {
-    border: 1px solid #999;
+    border: 1px solid #999999;
     page-break-inside: avoid; }
 
   thead {

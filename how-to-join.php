@@ -1,4 +1,4 @@
-<?php $title="How To Join" ?>
+<?php $title="Get Involved" ?>
 
 <!-- Document Head -->
 <?php include 'includes/doc_head.php'; ?>
@@ -7,48 +7,58 @@
     <!-- Header -->
     <?php include 'includes/header.php'; ?>
 
-    <!-- Nav -->
-    <?php include 'includes/nav.php'; ?>
-    <div class="row">
-        <div class="twelve columns">
-            <img src="http://placehold.it/1000x400&amp;text=[img]" />
-            <hr />
+    <div class="banner-container">
+        <div class="banner banner-home">
+            <span></span>
         </div>
     </div>
-  
-    <div class="row">
-        <div class="twelve columns">
-            <h2 class="text-center">How To Join</h2>
-            <div class="row">
-                <div class="four columns">
-                    <h4>Content Section</h4>
-                    <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-                </div>
-                <div class="four columns">
-                    <h4>Content Section</h4>
-                    <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-                </div>
-                <div class="four columns">
-                    <h4>Content Section</h4>
-                    <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-                </div>
-            </div>
+    
+    <div class="container main-content">
+        <img src="images/about_us.jpg" alt="" />
+        <h1 class="text-center">Get Involved</h1>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.</p>
+        <p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+        
+        <br>
+        <h2 class="text-center">Photos</h2>
+        <p>Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.</p>
+        <div class="row-fluid">
+            <ul class="unstyled">
+                <li class="span3">
+                    <img src="http://placehold.it/222x222&amp;text=[image]">
+                </li>
+                <li class="span3">
+                    <img src="http://placehold.it/222x222&amp;text=[image]">
+                </li>
+                <li class="span3">
+                    <img src="http://placehold.it/222x222&amp;text=[image]">
+                </li>
+                <li class="span3">
+                    <img src="http://placehold.it/222x222&amp;text=[image]">
+                </li>
+            </ul>
         </div>
-    </div><!-- end .row -->
-    <br>
-    <div class="row">
-        <div class="twelve columns">
-            <div class="panel clearfix">
-                <img src="http://placehold.it/300x200&amp;text=[img]" class="right" />
-                <h4>This is a content section.</h4>
-                <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-                <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow.</p>
-            </div>
+        <div class="row-fluid">
+            <ul class="unstyled">
+                <li class="span3">
+                    <img src="http://placehold.it/222x222&amp;text=[image]">
+                </li>
+                <li class="span3">
+                    <img src="http://placehold.it/222x222&amp;text=[image]">
+                </li>
+                <li class="span3">
+                    <img src="http://placehold.it/222x222&amp;text=[image]">
+                </li>
+                <li class="span3">
+                    <img src="http://placehold.it/222x222&amp;text=[image]">
+                </li>
+            </ul>
         </div>
-    </div><!-- end .row -->
-  
+    </div><!-- end .container -->
+    
+
     <!-- Footer -->
     <?php include 'includes/footer.php'; ?>
-
+    
     <!-- Document End -->
     <?php include 'includes/doc_end.php'; ?>

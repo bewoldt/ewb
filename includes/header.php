@@ -1,12 +1,26 @@
-<header id="header" style="background: #eee;padding: 10px 0;">
+<header class="header">
+	<div class="top-nav clearfix">
+		<div class="container">
+			<ul class="clearfix">
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">Donate/Support</a></li>
+				<li><a href="calendar.php">Calendar</a></li>
+				<li><a href="#">Events</a></li>
+			</ul>
+		</div>
+	</div>
 	<div class="container">
-		<div class="row-fluid">
-			<div class="span4">
-				<img src="http://placehold.it/303x70&amp;text=[logo]">
-			</div>
-			<div class="span8 text-right">
-				<p>Tagline Goes Here</p>
-			</div>
-	    </div>
+		<a href="index.php" class="logo">
+			<img src="images/ewb_logo.png" alt="University of Iowa Engineers Without Borders">
+			<span></span>
+		</a>
+		<nav class="clearfix">
+			<ul class="main-nav clearfix">
+				<li><a href="about.php">About Us</a></li>
+				<li><a href="ghana.php">Ghana Project</a></li>
+				<li><a href="committees.php">Committees</a></li>
+				<li><a href="how-to-join.php">Get Involved</a></li>
+			</ul>
+		</nav>
     </div>
 </header>

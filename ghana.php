@@ -7,19 +7,21 @@
     <!-- Header -->
     <?php include 'includes/header.php'; ?>
 
-    <!-- Nav -->
-    <?php include 'includes/nav.php'; ?>
+    <div class="banner-container">
+        <div class="banner banner-home">
+            <span></span>
+        </div>
+    </div>
     
-    <div style="background: url(images/landscape.jpg) no-repeat center bottom;padding-bottom: 360px;">
-        <div class="container">
-            <div class="row-fluid text-center">
+    <div class="container main-content">
+       <!--  <div style="background: url(images/landscape.jpg) no-repeat center bottom;padding-bottom: 360px;">
+            <div class="text-center">
                 <h1 class="uppercase">Ghana</h1>
                 <p style="font-size:26px;color: #777;">The mission of this program is to partner with villages in the Ejura Sekyedumase District in Ghana, West Africa, on global health projects focused mainly on community drinking water and sanitation</p>
             </div>
-        </div>
-    </div>
-    <div class="container">
-        <h2 class="text-center">Overview</h2>
+        </div> -->
+        <img src="http://placehold.it/920x400&amp;text=[img]" class="right" />
+        <h2 class="text-center">Ghana Overview</h2>
         <div class="row-fluid">
             <div class="span9">
                 <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod.</p>
