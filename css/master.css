@@ -2210,6 +2210,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: pt-sans-narrow, arial, verdana, sans-serif; }
 
 h1, h2, h3, h4 {
+  color: #123c83;
   text-transform: uppercase; }
 
 h1 {
