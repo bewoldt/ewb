@@ -12,5 +12,5 @@
 
         <link rel="stylesheet" href="css/master.css">
 
-        <script src="http://use.edgefonts.net/pt-sans-narrow;pt-serif.js"></script>
+        <script src="http://use.edgefonts.net/source-sans-pro:n3,n4,i4,n7,n9.js"></script>
     </head>

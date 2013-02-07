@@ -1,5 +1,18 @@
+<!-- <div id="flex-footer" class="flexslider">
+    <ul class="slides">
+        <li><img src="http://placehold.it/150x150&amp;text=1" /></li>
+        <li><img src="http://placehold.it/150x150&amp;text=2" /></li>
+        <li><img src="http://placehold.it/150x150&amp;text=3" /></li>
+        <li><img src="http://placehold.it/150x150&amp;text=4" /></li>
+        <li><img src="http://placehold.it/150x150&amp;text=5" /></li>
+        <li><img src="http://placehold.it/150x150&amp;text=6" /></li>
+        <li><img src="http://placehold.it/150x150&amp;text=7" /></li>
+        <li><img src="http://placehold.it/150x150&amp;text=8" /></li>
+        <li><img src="http://placehold.it/150x150&amp;text=9" /></li>
+        <li><img src="http://placehold.it/150x150&amp;text=10" /></li>
+    </ul>
+</div> -->
 <footer>
-    <hr>
     <div class="container">
         <div class="row-fluid">
             <div class="span3">
@@ -10,7 +23,7 @@
                 Fax: (319) 335-5660</p>
             </div>
             <div class="span6">
-                <div class="panel">
+                <div class="xpanel">
                     <h4>News/Updates</h4>
                     <ul class="side-nav">
                         <li>
@@ -31,8 +44,5 @@
                 <p><a href="#">Link to foundation site</a></p>
             </div>
         </div>
-        <div class="row-fluid">
-            <p>&copy; Copyright 2012 The University of Iowa. All Rights Reserved.</p>
-         </div><!-- end .row -->
     </div><!-- end .container -->
 </footer>

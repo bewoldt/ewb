@@ -13,22 +13,7 @@
     </div>
     
     <div class="container main-content">
-        <div class="row-fluid">
-            <div class="span8">
-                <h4>This is a content section.</h4>
-                <div class="row-fluid">
-                    <div class="span6">
-                        <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                    <div class="span6">
-                        <p>Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="span4">
-                <img src="http://placehold.it/400x300&amp;text=[img]" />
-            </div>
-        </div><!-- end .row -->
+        <img src="http://placehold.it/970x400&amp;text=[img]" />
         <br>
         <div class="row-fluid">
             <div class="panel clearfix">

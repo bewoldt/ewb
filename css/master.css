@@ -2156,6 +2156,255 @@ legend + .control-group {
 .nav-tabs.five-up li {
   width: 20%; }
 
+/*
+ * jQuery FlexSlider v2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+/* Browser Resets */
+.flex-container a:active, .flexslider a:active, .flex-container a:focus,
+.flexslider a:focus {
+  outline: none; }
+
+.slides, .flex-control-nav, .flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {
+  margin: 0;
+  padding: 0; }
+
+.flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+  position: relative; }
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {
+  width: 100%;
+  display: block; }
+
+.flex-pauseplay span {
+  text-transform: capitalize; }
+
+/* Clearfix for the .slides element */
+.slides:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+html[xmlns] .slides {
+  display: block; }
+
+* html .slides {
+  height: 1%; }
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {
+  display: block; }
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {
+  margin: 0 0 60px;
+  position: relative;
+  zoom: 1; }
+
+.flex-viewport {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease; }
+
+.loading .flex-viewport {
+  max-height: 300px; }
+
+.flexslider .slides {
+  zoom: 1; }
+
+.carousel li {
+  margin-right: 5px; }
+
+/* Direction Nav */
+.flex-direction-nav {
+  *height: 0; }
+
+.flex-direction-nav a {
+  width: 38px;
+  height: 79px;
+  margin: -40px 0 0;
+  display: block;
+  background-image: none;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+  text-indent: -9999px;
+  opacity: 1;
+  -webkit-transition: all .3s ease; }
+
+.flex-direction-nav .flex-prev {
+  background: url(../images/flexslider_prev.png) no-repeat 0 0;
+  left: 10px; }
+
+.flex-direction-nav .flex-next {
+  background: url(../images/flexslider_next.png) no-repeat 0 0;
+  right: 10px; }
+
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
+  opacity: 1; }
+
+.flex-direction-nav .flex-disabled {
+  opacity: .3!important;
+  filter: alpha(opacity=30);
+  cursor: default; }
+
+/* Control Nav */
+.flex-control-nav {
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+  text-align: center; }
+
+.flex-control-nav li {
+  margin: 0 6px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+
+.flex-control-paging li a {
+  width: 11px;
+  height: 11px;
+  display: block;
+  background: #666;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-indent: -9999px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3); }
+
+.flex-control-paging li a:hover {
+  background: #333;
+  background: rgba(0, 0, 0, 0.7); }
+
+.flex-control-paging li a.flex-active {
+  background: #000;
+  background: rgba(0, 0, 0, 0.9);
+  cursor: default; }
+
+.flex-control-thumbs {
+  margin: 5px 0 0;
+  position: static;
+  overflow: hidden; }
+
+.flex-control-thumbs li {
+  width: 25%;
+  float: left;
+  margin: 0; }
+
+.flex-control-thumbs img {
+  width: 100%;
+  display: block;
+  opacity: .7;
+  cursor: pointer; }
+
+.flex-control-thumbs img:hover {
+  opacity: 1; }
+
+.flex-control-thumbs .flex-active {
+  opacity: 1;
+  cursor: default; }
+
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev {
+    opacity: 1; }
+
+  .flex-direction-nav .flex-next {
+    opacity: 1; } }
+/* Caption */
+.flex-caption {
+  background: #000;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  padding: 2%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  width: 100%; }
+
+/* css/scss/imports/print.scss
+========================================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important; }
+
+  /* Black prints faster: h5bp.com/s */
+  a, a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: ""; }
+
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+
+  tr, img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2, h3 {
+    page-break-after: avoid; }
+
+  .hide-on-print {
+    display: none !important; }
+
+  .print-only {
+    display: block !important; } }
 /* Base styles
 ========================================================================== */
 html, button, input, select, textarea {
@@ -2176,7 +2425,8 @@ html, button, input, select, textarea {
 
 img, object, embed {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  display: block; }
 
 object, embed {
   height: 100%; }
@@ -2200,24 +2450,25 @@ img {
 body {
   background: #fff;
   color: #3a3a3a;
-  font-family: pt-serif, georgia, serif;
-  font-size: 16px;
+  font-family: source-sans-pro, georgia, serif;
+  font-size: 17px;
   line-height: 1.5;
   margin: 0;
   padding: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: pt-sans-narrow, arial, verdana, sans-serif; }
+  font-family: source-sans-pro, arial, verdana, sans-serif; }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   color: #123c83;
+  font-weight: 900;
   text-transform: uppercase; }
 
 h1 {
-  font-size: 50px; }
+  font-size: 60px; }
 
 h2 {
-  font-size: 42px; }
+  font-size: 52px; }
 
 h3 {
   font-size: 32px; }
@@ -2238,7 +2489,7 @@ table {
 ========================================================================== */
 .container {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 900px;
   position: relative; }
 
 /* HEADER
@@ -2297,7 +2548,8 @@ table {
   .main-nav li a {
     color: #fff;
     display: block;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
     padding: 10px 5px; }
 
 /* CONTENT
@@ -2329,6 +2581,28 @@ table {
   margin-top: 200px;
   padding: 20px; }
 
+/* Members ---------------------- */
+.staff-img {
+  box-shadow: inset 1px 1px 10px #000; }
+
+.member-img {
+  background: #fff;
+  border-radius: 100px;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border: 5px solid #123c83; }
+
+/* Map */
+.map-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  position: absolute;
+  font-size: 13px;
+  left: 0;
+  top: 0;
+  padding: 20px;
+  width: 300px;
+  height: 323px; }
+
 /* Side Nav ---------------------- */
 .side-nav {
   display: block;
@@ -2358,7 +2632,14 @@ table {
 footer {
   background: #05286c url(../images/header_bg.jpg) no-repeat center top;
   color: #fff;
-  font-size: 15px; }
+  padding-top: 5px; }
+
+#flex-footer {
+  margin-bottom: 0;
+  padding-bottom: 5px; }
+
+#flex-footer .slides > li {
+  margin-left: 5px; }
 
 .copy, .copy a {
   xcolor: #eee; }
@@ -2459,56 +2740,3 @@ ul.inline-list > li > *, ul.link-list > li > * {
     float: none;
     display: block;
     border-right: none; } }
-/* css/scss/imports/print.scss
-========================================================================== */
-@media print {
-  * {
-    background: transparent !important;
-    color: black !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-    filter: none !important;
-    -ms-filter: none !important; }
-
-  /* Black prints faster: h5bp.com/s */
-  a, a:visited {
-    text-decoration: underline; }
-
-  a[href]:after {
-    content: " (" attr(href) ")"; }
-
-  abbr[title]:after {
-    content: " (" attr(title) ")"; }
-
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
-    content: ""; }
-
-  pre, blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid; }
-
-  thead {
-    display: table-header-group;
-    /* h5bp.com/t */ }
-
-  tr, img {
-    page-break-inside: avoid; }
-
-  img {
-    max-width: 100% !important; }
-
-  @page {
-    margin: 0.5cm; }
-
-  p, h2, h3 {
-    orphans: 3;
-    widows: 3; }
-
-  h2, h3 {
-    page-break-after: avoid; }
-
-  .hide-on-print {
-    display: none !important; }
-
-  .print-only {
-    display: block !important; } }
