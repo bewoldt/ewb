@@ -25,16 +25,16 @@ body {
 	color: #3a3a3a;
 	font-family: source-sans-pro, georgia, serif;
 	font-size: 16px;
-	line-height: 1.5;
+	line-height: 1.4;
 	margin: 0;
 	padding: 0;
 }
 h1,h2,h3,h4,h5,h6 {font-family: source-sans-pro, arial, verdana, sans-serif;}
-h1,h2,h3 {color: #123c83;font-weight: 900; text-transform: uppercase;}
-h1 { font-size: 50px; }
-h2 { font-size: 42px; }
-h3 { font-size: 32px; }
-h4 { font-size: 24px; }
+h1,h2,h3,h4 {font-weight: 300; text-transform: uppercase;}
+h1 { font-size: 60px; }
+h2 { font-size: 50px; }
+h3 { font-size: 30px; }
+h4 { font-size: 24px; text-transform: none;}
 h5 { font-size: 17px; }
 h6 { font-size: 14px; }
 table {font-family: arial, verdana, sans-serif;}
@@ -43,7 +43,7 @@ table {font-family: arial, verdana, sans-serif;}
 ========================================================================== */
 .container {
 	margin: 0 auto;
-	max-width: 900px;
+	max-width: 920px;
 	position: relative;
 }
 
@@ -98,12 +98,12 @@ table {font-family: arial, verdana, sans-serif;}
 .main-nav li {
 	float: left;
 	margin-left: 1em;
-	margin-top: 40px;
+	margin-top: 32px;
 	& a {
 		color: #fff;
 		display: block;
-		font-size: 18px;
-		font-weight: bold;
+		font-size: 20px;
+		font-weight: 300;
 		padding: 10px 5px;
 	}
 }
@@ -136,23 +136,42 @@ table {font-family: arial, verdana, sans-serif;}
 .main-content {
 	background: #fff;
 	margin-top: 200px;
-	padding: 20px;
+	padding-bottom: 20px;
 	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
-	xborder-radius: 10px
+	border-radius: 4px
 }
-img {
-	xborder-radius: 5px;
+img.top-img {
+	border-radius: 4px 4px 0 0;
+}
+.title {
+	position: absolute;
+	left: 0;
+	top: -80px;
+	text-align: center;
+	width: 920px;
+}
+.title h1 {
+	color: #fff;
+	font-size: 60px;
+	font-weight: 900;
+	margin: 0;
+	text-shadow: 0 0 10px rgba(0,0,0,.6);
 }
 
 /* Members ---------------------- */
 .staff-img {
 	box-shadow: inset 1px 1px 10px #000;
 }
+
 .member-img  {
 	background: #fff;
 	border-radius: 100px;
 	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.2);
-	border: 5px solid #123c83;
+	border: 5px solid #fff;
+	-webkit-transition: all .2s linear;
+}
+.member-img:hover {
+	-webkit-transform: rotate(15deg);
 }
 /* Map */
 .map-overlay {
@@ -180,19 +199,7 @@ img {
 
 /* FOOTER
 ========================================================================== */
-footer {
-	background: #05286c url(../images/header_bg.jpg) no-repeat center top;
-	color: #fff;
-	padding-top: 5px;
-}
-#flex-footer {
-	margin-bottom: 0;
-	padding-bottom: 5px;
-}
-#flex-footer .slides > li {
-	margin-left: 5px;
-}
-.copy, .copy a {xcolor: #eee;}
+
 
 
 /* Misc classes
@@ -202,6 +209,12 @@ footer {
 .panel > :last-child { margin-bottom: 0; }
 img.left {margin-right: 1em;margin-bottom: 1em;}
 img.right {margin-left: 1em;margin-bottom: 1em;}
+.two-col {
+	-moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+}
 
 /* Inline Link List */
 ul.inline-list, ul.link-list { margin: 0 0 17px -22px; padding: 0; list-style: none; overflow: hidden; }
