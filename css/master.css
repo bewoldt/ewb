@@ -2455,7 +2455,7 @@ img {
 /* 
 ========================================================================== */
 body {
-  background: #f4f4f4 url(../images/diamond-pattern.png);
+  background: #e3e3e3 url(../images/big-circles.jpg) repeat-y center top;
   xbackground-attachment: fixed;
   color: #3a3a3a;
   font-family: source-sans-pro, georgia, serif;
@@ -2552,7 +2552,7 @@ table {
 .main-nav li {
   float: left;
   margin-left: 1em;
-  margin-top: 32px; }
+  margin-top: 40px; }
   .main-nav li a {
     color: #fff;
     display: block;
@@ -2573,7 +2573,7 @@ table {
   display: block;
   position: absolute;
   top: 0;
-  height: 500px;
+  height: 450px;
   width: 100%; }
 
 .banner-home {
@@ -2598,13 +2598,13 @@ img.top-img {
 .title {
   position: absolute;
   left: 0;
-  top: -80px;
+  top: -100px;
   text-align: center;
   width: 920px; }
 
 .title h1 {
   color: #fff;
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 900;
   margin: 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.6); }

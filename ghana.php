@@ -26,10 +26,11 @@
                 <p>In 2009, the District population was reported to be 109,594 people dispersed among 125 communities with a large fraction residing in Ejura. The Officer in Charge of the District Hospital has articulated many of the reasons why this program is needed. For example, many communities in the District lack access to safe drinking water and are without proper resources for disposing of human excrement. These deficiencies have contributed to hundreds of documented cases of diarrhea and typhoid, and likely thousands of undocumented cases, in the District in 2009. </p>
                 <img src="http://placehold.it/300x200&amp;text=[img]" class="left" />
                 <p>Our non-governmental partner, Self-Help International, based in Kumasi, Ghana, hosted a small University of Iowa team of students and faculty for a visit to Ejura and Kobriti (a village near Ejura) in January 2010. Self-Help also played an integral role during the recent EWB assessment trip of the village of Kobriti. For the purposes of our proposed program, Kobriti represents just one “typical” village that we seek to partner with in the Ejura Sekyedumase District. The need is great.</p>
+                <img src="http://placehold.it/300x200&amp;text=[img]" class="right" />
                 <p>Kobriti has a population of approximately 500 people utilizing mud huts for shelter, without access to electricity and with access to only two community boreholes as drinking water sources. Village leaders expressed concern over seasonal variations in water quality that reportedly resulted in the growth of visible organisms in water storage vessels. It is likely that soil borne parasites are contaminating collected water that is stored in unsafe containers, but the village leaders have perhaps yet to make this potential association between causation and effect. Clearly, training and resources in household water treatment and safe storage would be beneficial in Kobriti.</p>
 
                 <h3 class="text-center">Goals</h3>
-                <p>The goal for our first proposed project is to promote and assist in the implementation of household water treatment and safe storage projects in Kobriti, Ghana.  Diarrhea and typhoid are common illnesses in patients treated at the Ejura District hospital not far from Kobriti.  The village leaders expressed concern over the presence of organisms in open air water storage containers they claim could be seen by the naked eye.  Some health assessment data has been collected on the Ejura District, but we’re currently unsure if data exists for residents of Kobriti.</p>
+                <p class="two-col">The goal for our first proposed project is to promote and assist in the implementation of household water treatment and safe storage projects in Kobriti, Ghana. Diarrhea and typhoid are common illnesses in patients treated at the Ejura District hospital not far from Kobriti. The village leaders expressed concern over the presence of organisms in open air water storage containers they claim could be seen by the naked eye.  Some health assessment data has been collected on the Ejura District, but we’re currently unsure if data exists for residents of Kobriti.</p>
                 <div class="panel">
                     <h4>Project Info</h4>
                     <table class="table" style="font-size: 11px;">
@@ -55,26 +56,26 @@
         </div>
         <br>
         <div class="row-fluid">
-            <div class="span12" style="background: #05286c;padding: 50px 20px;color: #fff;">
+            <div class="span12" style="background: url(images/diamond_texture.jpg);padding: 50px 20px;color: #fff;">
                 <h2 class="text-center">Committees</h2>
                 <div class="row-fluid">
                     <div class="span3 text-center">
-                        <img src="http://placehold.it/202x202&amp;text=[img]" style="border-radius: 100px;">
+                        <img src="http://placehold.it/202x202&amp;text=[img]" style="border-radius: 4px;">
                         <h5>Lorem Ipsum Dolor</h5>
                         <p>Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                     </div>
                     <div class="span3 text-center">
-                        <img src="http://placehold.it/202x202&amp;text=[img]" style="border-radius: 100px;">
+                        <img src="http://placehold.it/202x202&amp;text=[img]" style="border-radius: 4px;">
                         <h5>Lorem Ipsum Dolor</h5>
                         <p>Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                     </div>
                     <div class="span3 text-center">
-                        <img src="http://placehold.it/202x202&amp;text=[img]" style="border-radius: 100px;">
+                        <img src="http://placehold.it/202x202&amp;text=[img]" style="border-radius: 4px;">
                         <h5>Lorem Ipsum Dolor</h5>
                         <p>Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                     </div>
                     <div class="span3 text-center">
-                        <img src="http://placehold.it/202x202&amp;text=[img]" style="border-radius: 100px;">
+                        <img src="http://placehold.it/202x202&amp;text=[img]" style="border-radius: 4px;">
                         <h5>Lorem Ipsum Dolor</h5>
                         <p>Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                     </div>

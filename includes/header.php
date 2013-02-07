@@ -2,10 +2,10 @@
 	<div class="top-nav clearfix">
 		<div class="container">
 			<ul class="clearfix">
-				<li><a href="#">Facebook</a></li>
 				<li><a href="#">Donate/Support</a></li>
 				<li><a href="calendar.php">Calendar</a></li>
 				<li><a href="#">Events</a></li>
+				<li><a href="#">Contact Us</a></li>
 			</ul>
 		</div>
 	</div>
