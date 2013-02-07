@@ -20,18 +20,19 @@ img { -ms-interpolation-mode: bicubic; }
 /* 
 ========================================================================== */
 body {
-	background: #fff;
+	background: #f4f4f4 url(../images/diamond-pattern.png);
+	xbackground-attachment: fixed;
 	color: #3a3a3a;
 	font-family: source-sans-pro, georgia, serif;
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
 }
 h1,h2,h3,h4,h5,h6 {font-family: source-sans-pro, arial, verdana, sans-serif;}
 h1,h2,h3 {color: #123c83;font-weight: 900; text-transform: uppercase;}
-h1 { font-size: 60px; }
-h2 { font-size: 52px; }
+h1 { font-size: 50px; }
+h2 { font-size: 42px; }
 h3 { font-size: 32px; }
 h4 { font-size: 24px; }
 h5 { font-size: 17px; }
@@ -109,13 +110,14 @@ table {font-family: arial, verdana, sans-serif;}
 
 /* CONTENT
 ========================================================================== */
-.banner-wrapper {
+.banner-container {
 	position: relative;
 }
 .banner {
-	background-color: #000;
+	xbackground-color: #000;
 	background-repeat: no-repeat;
 	background-position: center top;
+	xbackground-attachment: fixed;
 	display: block;
 	position: absolute;
 	top: 0;
@@ -123,10 +125,10 @@ table {font-family: arial, verdana, sans-serif;}
 	width: 100%;
 }
 .banner-home {
-	background-image: url(../images/banner_home.jpg);
+	background-image: url(../images/banner_rounded.png);
 }
 .banner span {
-	background: url(../images/dots.png);
+	xbackground: url(../images/dots.png);
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -135,6 +137,11 @@ table {font-family: arial, verdana, sans-serif;}
 	background: #fff;
 	margin-top: 200px;
 	padding: 20px;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	xborder-radius: 10px
+}
+img {
+	xborder-radius: 5px;
 }
 
 /* Members ---------------------- */

@@ -2448,10 +2448,11 @@ img {
 /* 
 ========================================================================== */
 body {
-  background: #fff;
+  background: #f4f4f4 url(../images/diamond-pattern.png);
+  xbackground-attachment: fixed;
   color: #3a3a3a;
   font-family: source-sans-pro, georgia, serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.5;
   margin: 0;
   padding: 0; }
@@ -2465,10 +2466,10 @@ h1, h2, h3 {
   text-transform: uppercase; }
 
 h1 {
-  font-size: 60px; }
+  font-size: 50px; }
 
 h2 {
-  font-size: 52px; }
+  font-size: 42px; }
 
 h3 {
   font-size: 32px; }
@@ -2554,13 +2555,14 @@ table {
 
 /* CONTENT
 ========================================================================== */
-.banner-wrapper {
+.banner-container {
   position: relative; }
 
 .banner {
-  background-color: #000;
+  xbackground-color: #000;
   background-repeat: no-repeat;
   background-position: center top;
+  xbackground-attachment: fixed;
   display: block;
   position: absolute;
   top: 0;
@@ -2568,10 +2570,10 @@ table {
   width: 100%; }
 
 .banner-home {
-  background-image: url(../images/banner_home.jpg); }
+  background-image: url(../images/banner_rounded.png); }
 
 .banner span {
-  background: url(../images/dots.png);
+  xbackground: url(../images/dots.png);
   position: absolute;
   height: 100%;
   width: 100%; }
@@ -2579,7 +2581,12 @@ table {
 .main-content {
   background: #fff;
   margin-top: 200px;
-  padding: 20px; }
+  padding: 20px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  xborder-radius: 10px; }
+
+img {
+  xborder-radius: 5px; }
 
 /* Members ---------------------- */
 .staff-img {
