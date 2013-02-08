@@ -6,14 +6,16 @@
 <body>
     <!-- Header -->
     <?php include 'includes/header.php'; ?>
+
     <div class="banner-container">
         <div class="banner banner-home">
             <span></span>
         </div>
     </div>
+
     <div class="container main-content">
         <div class="title"><h1>About Us</h1></div>
-        <img src="http://placehold.it/920x400&amp;text=[img]" class="top-img" />
+        <img src="images/about_us.jpg" class="top-img" />
         <div class="row-fluid">
             <div class="span10 offset1">
                 <div class="text-center">
@@ -22,19 +24,19 @@
                     <h3>Vision</h3>
                     <p>The mission of this student chapter is to partner with villages in the Ejura Sekyedumase District in Ghana, West Africa, on global health projects focused mainly on community drinking water and sanitation. Our in-country partner for this project is Self-Help International based in Waverly, Iowa. UIEWB is committed to partner with the people of Ghana through the year 2015, but we hope to continue the partnership past then.</p>
                 </div>
-                <hr>
                 <br>
                 <div class="clearfix">
                     <h2 class="text-center">Awards</h2>
+                    <img src="images/hr.png">
                     <img src="images/award.jpg" class="right" />
                     <h4>Hancher Finkbine Medallion</h4>
                     <p>In 2009-2010 UIEWB President Mike Schaefer was awarded a Distinguished Student Leader Certificate by the Hancher-Finkbine Medallion Committee to recognize meritorious qualities in leadership, learning and loyalty.</p>
                     <h4>Diversity Catalyst Award - 2010</h4>
                     <p>The student of Engineers Without Borders were awarded he Catalyst Awards, which are designed to honor those who have shown a commitment to achieving excellence through diversity at the University of Iowa.</p>
                 </div>
-                <hr>
                 <br>
                 <h2 class="text-center">Current Members 2011-12</h2>
+                <img src="images/hr.png">
                 <br>
                 <div class="row-fluid">
                     <div class="span6">
@@ -139,12 +141,34 @@
                         </ul>
                     </div>
                     <div class="span4">
-                        <h3>Members 2009-10</h3>
+                        <h4>Members 2009-10</h4>
                         <ul>
                             <li>Michael Schaefer <small>(President)</small>
                         </ul>
                     </div>
                 </div><!-- end .row -->
+
+                <h2 class="text-center">Field Notes</h2>
+                <img src="images/hr_wh.png" style="margin-bottom: -72px;">
+            </div>
+        </div>
+        <br>
+        <div class="row-fluid"style="background: url(http://subtlepatterns.com/patterns/linedpaper.png);border-top: 1px solid #ccc;padding: 50px 0;">
+            <div class="span5 offset1">
+                <article>
+                    <h3><a href="#">Blog Post Title</a></h3>
+                    <h6>Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
+                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <p><a href="#">Continue Reading</a></p>
+                </article>
+            </div>
+            <div class="span5">
+                <article>
+                    <h3><a href="#">Blog Post Title</a></h3>
+                    <h6>Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
+                    <p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a href="#">Continue Reading</a></p>
+                </article>
             </div>
         </div>
     </div><!-- end .container -->

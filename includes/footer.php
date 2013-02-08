@@ -12,6 +12,11 @@
         <li><img src="http://placehold.it/150x150&amp;text=10" /></li>
     </ul>
 </div> -->
-<footer>
-    <p>&nbsp;</p>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="container">
+            <p>test</p>
+            <p>test</p>
+        </div>
+    </div>
 </footer>

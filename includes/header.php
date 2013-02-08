@@ -2,7 +2,7 @@
 	<div class="top-nav clearfix">
 		<div class="container">
 			<ul class="clearfix">
-				<li><a href="#">Donate/Support</a></li>
+				<li><a href="support.php">Donate/Support</a></li>
 				<li><a href="calendar.php">Calendar</a></li>
 				<li><a href="#">Events</a></li>
 				<li><a href="#">Contact Us</a></li>
@@ -19,7 +19,7 @@
 				<li><a href="about.php">About Us</a></li>
 				<li><a href="ghana.php">Ghana Project</a></li>
 				<li><a href="committees.php">Committees</a></li>
-				<li><a href="how-to-join.php">Get Involved</a></li>
+				<li><a href="get-involved.php">Get Involved</a></li>
 			</ul>
 		</nav>
     </div>

@@ -1,4 +1,4 @@
-<?php $title="Calendar" ?>
+<?php $title="Support" ?>
 
 <!-- Document Head -->
 <?php include 'includes/doc_head.php'; ?>
@@ -14,10 +14,25 @@
     </div>
     
     <div class="container main-content">
-        <div class="title"><h1>Calendar</h1></div>
-        <iframe src="https://www.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America/Chicago" style="border: 0; padding: 30px;" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
-        <h2 class="text-center">Field Notes</h2>
-        <img src="images/hr_wh.png" style="margin-bottom: -72px;margin-left: auto; margin-right: auto;">
+        <div class="title"><h1>Support</h1></div>
+        <img src="http://placehold.it/920x400&amp;text=[image]" class="top-img" />
+        <div class="row-fluid">
+            <div class="span10 offset1">
+                <h2 class="text-center">Help Support Our Efforts</h2>
+                <img src="images/hr.png">
+                <h3>Lorem Ipsum dolor Amet</h3>
+                <ul>
+                    <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.</li>
+                    <li>Donec ullamcorper nulla non metus auctor fringilla.</li>
+                </ul>
+
+                <h3>Ligula Pellentesque Dolor</h3>
+                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                <h2 class="text-center">Field Notes</h2>
+                <img src="images/hr_wh.png" style="margin-bottom: -72px;">
+            </div>
+        </div>
         <br>
         <div class="row-fluid"style="background: url(http://subtlepatterns.com/patterns/linedpaper.png);border-top: 1px solid #ccc;padding: 50px 0;">
             <div class="span5 offset1">

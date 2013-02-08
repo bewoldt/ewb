@@ -19,8 +19,9 @@ img { -ms-interpolation-mode: bicubic; }
 
 /* 
 ========================================================================== */
+html {background: url(http://subtlepatterns.com/patterns/pw_maze_white.png);}
 body {
-	background: #e3e3e3 url(../images/big-circles.jpg) repeat-y center top;
+	background: url(../images/big-circles.jpg) repeat-y center top;
 	xbackground-attachment: fixed;
 	color: #3a3a3a;
 	font-family: source-sans-pro, georgia, serif;
@@ -51,7 +52,7 @@ table {font-family: arial, verdana, sans-serif;}
 ========================================================================== */
 .header {
 	background: #05286c url(../images/header_bg.jpg) no-repeat center bottom;
-	box-shadow: 0 3px 4px rgba(0,0,0,.35);
+	box-shadow: 0 2px 5px rgba(0,0,0,.4);
 	position: relative;
 	z-index: 100;
 }
@@ -121,7 +122,7 @@ table {font-family: arial, verdana, sans-serif;}
 	display: block;
 	position: absolute;
 	top: 0;
-	height: 450px;
+	height: 500px;
 	width: 100%;
 }
 .banner-home {
@@ -136,12 +137,16 @@ table {font-family: arial, verdana, sans-serif;}
 .main-content {
 	background: #fff;
 	margin-top: 200px;
-	padding-bottom: 20px;
-	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	xpadding-bottom: 70px;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+	   -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+	        box-shadow: 0 1px 5px rgba(0,0,0,0.3);
 	border-radius: 4px
 }
 img.top-img {
 	border-radius: 4px 4px 0 0;
+	padding-bottom: 30px;
+	background: url(../images/shadow.jpg) no-repeat center bottom;
 }
 .title {
 	position: absolute;
@@ -199,7 +204,18 @@ img.top-img {
 
 /* FOOTER
 ========================================================================== */
-
+.footer {
+	background: #05286c;
+	xmargin-top: 2em;
+	position: relative;
+}
+.footer .wrapper {
+	xbackground: #333;
+	xbackground: rgba(0,0,0,0.75);
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0.3) 0,rgba(0,0,0,0.1) 40px);
+	xbackground: -moz-linear-gradient(top,rgba(0,0,0,0.8) 0,rgba(0,0,0,0.75) 40px);
+	padding: 60px 0 40px 0;
+}
 
 
 /* Misc classes
@@ -209,12 +225,8 @@ img.top-img {
 .panel > :last-child { margin-bottom: 0; }
 img.left {margin-right: 1em;margin-bottom: 1em;}
 img.right {margin-left: 1em;margin-bottom: 1em;}
-.two-col {
-	-moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-}
+.two-col {-moz-column-count: 2;-moz-column-gap: 20px;-webkit-column-count: 2;-webkit-column-gap: 20px;}
+.text-small {font-size: 13px;}
 
 /* Inline Link List */
 ul.inline-list, ul.link-list { margin: 0 0 17px -22px; padding: 0; list-style: none; overflow: hidden; }

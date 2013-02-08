@@ -1,4 +1,4 @@
-<?php $title="Calendar" ?>
+<?php $title="Get Involved" ?>
 
 <!-- Document Head -->
 <?php include 'includes/doc_head.php'; ?>
@@ -14,10 +14,26 @@
     </div>
     
     <div class="container main-content">
-        <div class="title"><h1>Calendar</h1></div>
-        <iframe src="https://www.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America/Chicago" style="border: 0; padding: 30px;" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
-        <h2 class="text-center">Field Notes</h2>
-        <img src="images/hr_wh.png" style="margin-bottom: -72px;margin-left: auto; margin-right: auto;">
+        <div class="title"><h1>Get Involved</h1></div>
+        <img src="http://placehold.it/920x400&amp;text=[image]" class="top-img" />
+        <div class="row-fluid">
+            <div class="span10 offset1">
+                <h3>Steps to Join</h3>
+                <ul>
+                    <li>Join Our Mailing List- [Link to EWB Listserv]</li>
+                    <li>Attend a Meeting - <a href="calendar.php">Check out calendar</a> for up-to-date meeting times and locations</li>
+                    <li><a href="http://www.facebook.com/UIEWB">Like us on Facebook</a></li>
+                </ul>
+
+                <h3>Who Can Join?</h3>
+                <p>Anyone can join, regardless of major! Not all of our members are engineering majors, even though “Engineer” is in our name. We welcome anyone with an open mind and a willingness to make a change in the world.</p>
+
+                <h3>Become a Mentor</h3>
+                <p>We are always looking for professional mentors. If you are interested in helping, please contact <a href="mailto:craig-just@uiowa.edu">craig-just@uiowa.edu</a>.</p>
+                <h2 class="text-center">Field Notes</h2>
+                <img src="images/hr_wh.png" style="margin-bottom: -72px;">
+            </div>
+        </div>
         <br>
         <div class="row-fluid"style="background: url(http://subtlepatterns.com/patterns/linedpaper.png);border-top: 1px solid #ccc;padding: 50px 0;">
             <div class="span5 offset1">
