@@ -26,8 +26,10 @@
                 <p>Our non-governmental partner, Self-Help International, based in Kumasi, Ghana, hosted a small University of Iowa team of students and faculty for a visit to Ejura and Kobriti (a village near Ejura) in January 2010. Self-Help also played an integral role during the recent EWB assessment trip of the village of Kobriti. For the purposes of our proposed program, Kobriti represents just one “typical” village that we seek to partner with in the Ejura Sekyedumase District. The need is great.</p>
                 <img src="images/ghana_pic1.jpg" class="left" />
                 <p>Kobriti has a population of approximately 500 people utilizing mud huts for shelter, without access to electricity and with access to only two community boreholes as drinking water sources. Village leaders expressed concern over seasonal variations in water quality that reportedly resulted in the growth of visible organisms in water storage vessels. It is likely that soil borne parasites are contaminating collected water that is stored in unsafe containers, but the village leaders have perhaps yet to make this potential association between causation and effect. Clearly, training and resources in household water treatment and safe storage would be beneficial in Kobriti.</p>
+                <br>
                 <h3 class="text-center">Goals</h3>
                 <p class="two-col">The goal for our first proposed project is to promote and assist in the implementation of household water treatment and safe storage projects in Kobriti, Ghana. Diarrhea and typhoid are common illnesses in patients treated at the Ejura District hospital not far from Kobriti. The village leaders expressed concern over the presence of organisms in open air water storage containers they claim could be seen by the naked eye.  Some health assessment data has been collected on the Ejura District, but we’re currently unsure if data exists for residents of Kobriti.</p>
+                <br>
             </div>
         </div>
         <br>
