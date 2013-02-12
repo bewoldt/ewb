@@ -22,7 +22,7 @@ img { -ms-interpolation-mode: bicubic; }
 html {background: url(http://subtlepatterns.com/patterns/pw_maze_white.png);}
 body {
 	background: url(../images/big-circles.jpg) repeat-y center top;
-	xbackground-attachment: fixed;
+	background-attachment: fixed;
 	color: #3a3a3a;
 	font-family: source-sans-pro, georgia, serif;
 	font-size: 16px;
@@ -117,7 +117,7 @@ table {font-family: arial, verdana, sans-serif;}
 	xbackground-color: #000;
 	background-repeat: no-repeat;
 	background-position: center top;
-	xbackground-attachment: fixed;
+	background-attachment: fixed;
 	display: block;
 	position: absolute;
 	top: 0;
@@ -126,6 +126,7 @@ table {font-family: arial, verdana, sans-serif;}
 }
 .banner-home {
 	background-image: url(../images/banner_rounded.png);
+	/*background-image: url(../images/banner_home.jpg);*/
 }
 .banner span {
 	xbackground: url(../images/dots.png);
@@ -209,11 +210,8 @@ img.top-img {
 	position: relative;
 }
 .footer .wrapper {
-	xbackground: #333;
-	xbackground: rgba(0,0,0,0.75);
 	background: -webkit-linear-gradient(top,rgba(0,0,0,0.3) 0,rgba(0,0,0,0.1) 40px);
-	xbackground: -moz-linear-gradient(top,rgba(0,0,0,0.8) 0,rgba(0,0,0,0.75) 40px);
-	padding: 60px 0 40px 0;
+	xpadding: 60px 0 40px 0;
 }
 
 
