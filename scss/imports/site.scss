@@ -21,8 +21,8 @@ img { -ms-interpolation-mode: bicubic; }
 ========================================================================== */
 html {background: url(http://subtlepatterns.com/patterns/pw_maze_white.png);}
 body {
-	background: url(../images/big-circles.jpg) repeat-y center top;
-	background-attachment: fixed;
+	xbackground: url(../images/big-circles.jpg) repeat-y center top;
+	xbackground-attachment: fixed;
 	color: #3a3a3a;
 	font-family: source-sans-pro, georgia, serif;
 	font-size: 16px;
@@ -117,11 +117,11 @@ table {font-family: arial, verdana, sans-serif;}
 	xbackground-color: #000;
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-attachment: fixed;
+	xbackground-attachment: fixed;
 	display: block;
 	position: absolute;
 	top: 0;
-	height: 500px;
+	height: 400px;
 	width: 100%;
 }
 .banner-home {
@@ -172,11 +172,17 @@ img.top-img {
 	background: #fff;
 	border-radius: 100px;
 	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+	   -moz-box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+	        box-shadow: 1px 1px 1px rgba(0,0,0,.2);
 	border: 5px solid #fff;
 	-webkit-transition: all .2s linear;
+	   -moz-transition: all .2s linear;
+	        transition: all .2s linear;
 }
 .member-img:hover {
 	-webkit-transform: rotate(15deg);
+	   -moz-transform: rotate(15deg);
+	        transform: rotate(15deg);
 }
 /* Map */
 .map-overlay {

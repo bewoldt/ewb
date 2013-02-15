@@ -191,7 +191,7 @@ figure {
  * Define consistent border, margin, and padding.
  */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -421,8 +421,8 @@ hr {
   clear: both;
   margin: 50px 0;
   border: 0;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #fff; }
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid white; }
 
 .left {
   float: left; }
@@ -447,7 +447,7 @@ hr {
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 20px;
-  border-left: 5px solid #eee; }
+  border-left: 5px solid #eeeeee; }
 
 blockquote p {
   margin-bottom: 0;
@@ -465,7 +465,7 @@ blockquote.pull-right {
   float: right;
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eee;
+  border-right: 5px solid #eeeeee;
   border-left: 0; }
 
 blockquote.pull-right p,
@@ -860,7 +860,7 @@ blockquote:after {
 /*@import "imports/forms.scss";*/
 .nav-tabs {
   *zoom: 1;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dddddd;
   margin-left: 0;
   margin-bottom: 20px;
   list-style: none; }
@@ -895,7 +895,7 @@ blockquote:after {
 .nav-tabs > .active > a:hover {
   color: #555555;
   background-color: #ffffff;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   border-top: 3px solid #2ba6cb;
   border-bottom-color: transparent;
   cursor: default; }
@@ -1031,7 +1031,7 @@ html[xmlns] .slides {
   cursor: pointer;
   text-indent: -9999px;
   opacity: 1;
-  -webkit-transition: all .3s ease; }
+  -webkit-transition: all 0.3s ease; }
 
 .flex-direction-nav .flex-prev {
   background: url(../images/flexslider_prev.png) no-repeat 0 0;
@@ -1154,7 +1154,7 @@ html[xmlns] .slides {
     content: ""; }
 
   pre, blockquote {
-    border: 1px solid #999;
+    border: 1px solid #999999;
     page-break-inside: avoid; }
 
   thead {
@@ -1228,8 +1228,8 @@ html {
   background: url(http://subtlepatterns.com/patterns/pw_maze_white.png); }
 
 body {
-  background: url(../images/big-circles.jpg) repeat-y center top;
-  background-attachment: fixed;
+  xbackground: url(../images/big-circles.jpg) repeat-y center top;
+  xbackground-attachment: fixed;
   color: #3a3a3a;
   font-family: source-sans-pro, georgia, serif;
   font-size: 16px;
@@ -1341,11 +1341,11 @@ table {
   xbackground-color: #000;
   background-repeat: no-repeat;
   background-position: center top;
-  background-attachment: fixed;
+  xbackground-attachment: fixed;
   display: block;
   position: absolute;
   top: 0;
-  height: 500px;
+  height: 400px;
   width: 100%; }
 
 .banner-home {
@@ -1388,17 +1388,23 @@ img.top-img {
 
 /* Members ---------------------- */
 .staff-img {
-  box-shadow: inset 1px 1px 10px #000; }
+  box-shadow: inset 1px 1px 10px black; }
 
 .member-img {
   background: #fff;
   border-radius: 100px;
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-  border: 5px solid #fff;
-  -webkit-transition: all .2s linear; }
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border: 5px solid white;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
 
 .member-img:hover {
-  -webkit-transform: rotate(15deg); }
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  transform: rotate(15deg); }
 
 /* Map */
 .map-overlay {

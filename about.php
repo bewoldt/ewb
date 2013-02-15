@@ -15,7 +15,7 @@
 
     <div class="container main-content">
         <div class="title"><h1>About Us</h1></div>
-        <img src="images/about_us.jpg" class="top-img" />
+        <img src="http://placehold.it/970x400&amp;text=[img]" class="top-img" />
         <div class="row-fluid">
             <div class="span10 offset1">
                 <div class="text-center">

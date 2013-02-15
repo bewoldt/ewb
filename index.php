@@ -14,7 +14,7 @@
     </div>
     
     <div class="container main-content">
-        <img src="http://placehold.it/970x400&amp;text=[img]" class="top-img" />
+        <img src="images/about_us.jpg" class="top-img" />
         <div class="row-fluid">
             <div class="span10 offset1">
                 <br>

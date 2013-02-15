@@ -33,25 +33,25 @@
             </div>
         </div>
         <br>
-        <div class="row-fluid" style="background: url(images/concrete_wall.png);padding: 50px 20px;color: #fff;">
+        <div class="row-fluid" style="background: url(images/concrete_wall.jpg);padding: 50px 20px;color: #fff;">
             <div class="span10 offset1" >
                 <h3 class="text-center">Project Committees</h3>
                 <div class="row-fluid">
                     <div class="span3 text-center">
                         <h5>Water</h5>
-                        <img src="http://placehold.it/202x202&amp;text=[img]">
+                        <img src="http://placehold.it/202x202&amp;text=[img]" style="border-radius: 80px;">
                     </div>
                     <div class="span3 text-center">
                         <h5>Sanitation</h5>
-                        <img src="http://placehold.it/202x202&amp;text=[img]" >
+                        <img src="http://placehold.it/202x202&amp;text=[img]" style="border-radius: 80px;" >
                     </div>
                     <div class="span3 text-center">
                         <h5>Health</h5>
-                        <img src="http://placehold.it/202x202&amp;text=[img]">
+                        <img src="http://placehold.it/202x202&amp;text=[img]" style="border-radius: 80px;">
                     </div>
                     <div class="span3 text-center">
                         <h5>Energy</h5>
-                        <img src="http://placehold.it/202x202&amp;text=[img]">
+                        <img src="http://placehold.it/202x202&amp;text=[img]" style="border-radius: 80px;">
                     </div>
                 </div>
             </div>
