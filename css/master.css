@@ -1225,7 +1225,7 @@ img {
 /* 
 ========================================================================== */
 html {
-  background: url(http://subtlepatterns.com/patterns/pw_maze_white.png); }
+  xbackground: url(../images/pw_maze_white.png); }
 
 body {
   xbackground: url(../images/big-circles.jpg) repeat-y center top;
@@ -1362,9 +1362,9 @@ table {
   background: #fff;
   margin-top: 200px;
   xpadding-bottom: 70px;
-  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  x-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  x-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  xbox-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
   border-radius: 4px; }
 
 img.top-img {

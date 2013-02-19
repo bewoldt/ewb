@@ -134,7 +134,7 @@
             </div>
         </div>
         <br>
-        <div class="row-fluid"style="background: url(http://subtlepatterns.com/patterns/linedpaper.png);border-top: 1px solid #ccc;padding: 50px 0;">
+        <div class="row-fluid"style="background: url(images/linedpaper.png);border-top: 1px solid #ccc;padding: 50px 0;">
             <div class="span5 offset1">
                 <article>
                     <h3><a href="#">Blog Post Title</a></h3>
