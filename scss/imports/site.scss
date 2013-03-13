@@ -19,10 +19,8 @@ img { -ms-interpolation-mode: bicubic; }
 
 /* 
 ========================================================================== */
-html {xbackground: url(../images/pw_maze_white.png);}
 body {
-	xbackground: url(../images/big-circles.jpg) repeat-y center top;
-	xbackground-attachment: fixed;
+	background: url(../images/pw_maze_white.png);
 	color: #3a3a3a;
 	font-family: source-sans-pro, georgia, serif;
 	font-size: 16px;
@@ -33,8 +31,17 @@ body {
 h1,h2,h3,h4,h5,h6 {font-family: source-sans-pro, arial, verdana, sans-serif;}
 h1,h2,h3,h4 {font-weight: 300; text-transform: uppercase;}
 h1 { font-size: 60px; }
-h2 { font-size: 50px; }
-h3 { font-size: 30px; }
+h2 {
+	background: url(../images/hr.png) center bottom no-repeat;
+	font-size: 50px;
+	padding-bottom: 1.5em;
+	position: relative;
+	text-align: center;
+	&.events {
+		margin-bottom: -50px;
+	}
+}
+h3 { font-size: 35px; text-transform: none;}
 h4 { font-size: 24px; text-transform: none;}
 h5 { font-size: 17px; }
 h6 { font-size: 14px; }
@@ -98,13 +105,20 @@ table {font-family: arial, verdana, sans-serif;}
 }
 .main-nav li {
 	float: left;
-	margin-left: 1em;
-	margin-top: 40px;
+	margin: 42px 0 10px 5px;
 	& a {
 		color: #fff;
 		display: block;
 		font-size: 20px;
-		padding: 10px 5px;
+		padding: 4px 10px;
+	}
+	&.active a {
+		background: #fff;
+		border-radius: 4px;
+		color: #0b2f74;
+		&:hover {
+			text-decoration: none;
+		}
 	}
 }
 
@@ -138,15 +152,12 @@ table {font-family: arial, verdana, sans-serif;}
 	background: #fff;
 	margin-top: 200px;
 	xpadding-bottom: 70px;
-	x-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
-	   x-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
-	        xbox-shadow: 0 1px 5px rgba(0,0,0,0.3);
-	border-radius: 4px
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+	   -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+	        box-shadow: 0 1px 5px rgba(0,0,0,0.3);
 }
-img.top-img {
-	border-radius: 4px 4px 0 0;
-	padding-bottom: 30px;
-	background: url(../images/shadow.jpg) no-repeat center bottom;
+.top-img {
+	margin-bottom: 30px;
 }
 .title {
 	position: absolute;

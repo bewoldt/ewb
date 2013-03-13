@@ -19,7 +19,6 @@
         <div class="row-fluid">
             <div class="span10 offset1">
                 <h2 class="text-center">Overview</h2>
-                <img src="images/hr.png">
                 <p class="lead">The mission of this program is to partner with villages in the Ejura Sekyedumase District in Ghana, West Africa, on “global health engineering” projects focusing mainly on community drinking water and sanitation.</p>
                 <img src="images/ghana_pic2.jpg" alt="" class="right" />
                 <p>In 2009, the District population was reported to be 109,594 people dispersed among 125 communities with a large fraction residing in Ejura. The Officer in Charge of the District Hospital has articulated many of the reasons why this program is needed. For example, many communities in the District lack access to safe drinking water and are without proper resources for disposing of human excrement. These deficiencies have contributed to hundreds of documented cases of diarrhea and typhoid, and likely thousands of undocumented cases, in the District in 2009. </p>
@@ -61,7 +60,6 @@
                 <br>
                 <br>
                 <h2 class="text-center">Community Info</h2>
-                <img src="images/hr.png">
                 <p class="lead">The Kobriti village is located about 20 minutes from the town of Ejura by road. It lies in a heavily wooded area. The population is approximately 500 individuals, in 70 households living on 0.4 square kilometers of land.</p>
                 <p>The population consists mostly of migrants – predominantly Muslim farmers - from the Northern regions of Ghana. While some of the villagers maintain their northern dialects, a vast majority are proficient in Twi, the language of the Ashanti region. Only a small percentage of the village is proficient in English, a majority of whom are teachers at the school.</p>
 
@@ -79,12 +77,10 @@
             <div class="span10 offset1">
                 <br>
                 <h2 class="text-center">5 Weeks In Ghana</h2>
-                <img src="images/hr.png">
                 <p>The assessment trip featured in this video was part of a development partnership between the University of Iowa, Engineers Without Borders USA, Self-Help International and people living in Ghana.</p>
                 <iframe width="762" height="429" src="http://www.youtube.com/embed/c4KvpOBFYWw?rel=0" frameborder="0" allowfullscreen></iframe>
                 <br>
                 <h2 class="text-center">Photos</h2>
-                <img src="images/hr.png">
                 <div class="row-fluid">
                     <ul class="unstyled">
                         <li class="span3">
@@ -135,9 +131,7 @@
                         </li>
                     </ul>
                 </div>
-
                 <h2 class="text-center">Field Notes</h2>
-                <img src="images/hr_wh.png" style="margin-bottom: -72px;">
             </div>
         </div>
         <br>

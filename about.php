@@ -27,7 +27,6 @@
                 <br>
                 <div class="clearfix">
                     <h2 class="text-center">Awards</h2>
-                    <img src="images/hr.png">
                     <img src="images/award.jpg" class="right" />
                     <h4>Hancher Finkbine Medallion</h4>
                     <p>In 2009-2010 UIEWB President Mike Schaefer was awarded a Distinguished Student Leader Certificate by the Hancher-Finkbine Medallion Committee to recognize meritorious qualities in leadership, learning and loyalty.</p>
@@ -36,7 +35,6 @@
                 </div>
                 <br>
                 <h2 class="text-center">Current Members 2011-12</h2>
-                <img src="images/hr.png">
                 <br>
                 <div class="row-fluid">
                     <div class="span6">
@@ -148,12 +146,10 @@
                     </div>
                 </div><!-- end .row -->
 
-                <h2 class="text-center">Field Notes</h2>
-                <img src="images/hr_wh.png" style="margin-bottom: -72px;">
+                <h2 class="events">Field Notes</h2>
             </div>
         </div>
-        <br>
-        <div class="row-fluid"style="background: url(images/linedpaper.png);border-top: 1px solid #ccc;padding: 50px 0;">
+        <div class="row-fluid"style="background: url(images/linedpaper.png);border-top: 1px solid #e5e5e5;padding: 50px 0;">
             <div class="span5 offset1">
                 <article>
                     <h3><a href="#">Blog Post Title</a></h3>

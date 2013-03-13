@@ -16,10 +16,8 @@
     <div class="container main-content">
         <div class="title"><h1>Calendar</h1></div>
         <iframe src="https://www.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America/Chicago" style="border: 0; padding: 30px;" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
-        <h2 class="text-center">Field Notes</h2>
-        <img src="images/hr_wh.png" style="margin-bottom: -72px;margin-left: auto; margin-right: auto;">
-        <br>
-        <div class="row-fluid"style="background: url(images/linedpaper.png);border-top: 1px solid #ccc;padding: 50px 0;">
+        <h2 class="events">Upcoming Events</h2>
+        <div class="row-fluid"style="background: url(images/linedpaper.png);padding: 50px 0;">
             <div class="span5 offset1">
                 <article>
                     <h3><a href="#">Blog Post Title</a></h3>
